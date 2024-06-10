@@ -20,6 +20,6 @@ jobs:
           CR_PAT: ${{ secrets.GH_TOKEN }}
         run: echo $CR_PAT | docker login ghcr.io -u grischastorch23 --password-stdin
       - name: docker build
-        run: docker build -t react-test .
+        run: docker build -t ghcr.io/grischastorch23/react-test .
       - name: docker push
         run: docker push ghcr.io/grischastorch23/react-test:latest
