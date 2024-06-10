@@ -1,4 +1,5 @@
 #!/bin/bash
 
-npm build
+npm install
+npm run build
 docker build -t react-test .
