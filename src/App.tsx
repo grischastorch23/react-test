@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hallo Grischa</h1>
-        <h2>Grüße von remoteexception</h2>
+        <h2>Gruizi remoteexception</h2>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
